@@ -322,77 +322,77 @@ let
 
 let sarlaccV = svg.append('image').attr('href', "../PolicyIteration/sarlacc.png").attr("x",105+3*(500/maxX)).attr("y",205+3*(500/maxY)).attr("height",3*(500/maxY) -10).attr("width",3*(500/maxX) -10);*/
 
-let sarlacc = svg.append('image').attr('href', "../Qlearning_II/sarlacc.png")
+let sarlacc = svg.append('image').attr('href', "../sarlacc.png")
                                     .attr("preserveAspectRatio","none")
                                     .attr("x",graphBorder+9*(graphEdge/maxX)+5)
                                     .attr("y",graphBorder+3*(graphEdge/maxY)+5)
                                     .attr("height",3*(graphEdge/maxY) -10)
                                     .attr("width",3*(graphEdge/maxX) -10);
 
-let barge = characters.append('image').attr('href', "../Qlearning_II/barge.png")
+let barge = characters.append('image').attr('href', "../barge.png")
                                     .attr("preserveAspectRatio","none")
                                     .attr("x",graphBorder+2*(graphEdge/maxX)+5)
                                     .attr("y",graphBorder+7*(graphEdge/maxY)+5)
                                     .attr("height",2*(graphEdge/maxY) -10)
                                     .attr("width",4*(graphEdge/maxX) - 10);
 
-let advisor = characters.append('image').attr('href', "../Qlearning_II/advisor.png")
+let advisor = characters.append('image').attr('href', "../advisor.png")
                                     .attr("preserveAspectRatio","none")
                                     .attr("x",graphBorder+3*(graphEdge/maxX)+5)
                                     .attr("y",graphBorder+2*(graphEdge/maxY)+5)
                                     .attr("height",2*(graphEdge/maxY) -10)
                                     .attr("width",2*(graphEdge/maxX) - 10);
 
-characters.append('image').attr('href', "../Qlearning_II/gamorrian.png")
+characters.append('image').attr('href', "../gamorrian.png")
                                     .attr("preserveAspectRatio","none")
                                     .attr("x",graphBorder+13*(graphEdge/maxX)+5)
                                     .attr("y",graphBorder+(graphEdge/maxY)+5)
                                     .attr("height",(graphEdge/maxY) -10)
                                     .attr("width",(graphEdge/maxX) - 10);
 
-characters.append('image').attr('href', "../Qlearning_II/gamorrian.png")
+characters.append('image').attr('href', "../gamorrian.png")
                                     .attr("preserveAspectRatio","none")
                                     .attr("x",graphBorder+10*(graphEdge/maxX)+5)
                                     .attr("y",graphBorder+7*(graphEdge/maxY)+5)
                                     .attr("height",(graphEdge/maxY) -10)
                                     .attr("width",(graphEdge/maxX) - 10);
 
-characters.append('image').attr('href', "../Qlearning_II/gamorrian.png")
+characters.append('image').attr('href', "../gamorrian.png")
                                     .attr("preserveAspectRatio","none")
                                     .attr("x",graphBorder+10*(graphEdge/maxX)+5)
                                     .attr("y",graphBorder+10*(graphEdge/maxY)+5)
                                     .attr("height",(graphEdge/maxY) -10)
                                     .attr("width",(graphEdge/maxX) - 10);
 
-characters.append('image').attr('href', "../Qlearning_II/gamorrian.png")
+characters.append('image').attr('href', "../gamorrian.png")
                                     .attr("preserveAspectRatio","none")
                                     .attr("x",graphBorder+13*(graphEdge/maxX)+5)
                                     .attr("y",graphBorder+10*(graphEdge/maxY)+5)
                                     .attr("height",(graphEdge/maxY) -10)
                                     .attr("width",(graphEdge/maxX) - 10);
 
-characters.append('image').attr('href', "../Qlearning_II/gamorrian.png")
+characters.append('image').attr('href', "../gamorrian.png")
                                     .attr("preserveAspectRatio","none")
                                     .attr("x",graphBorder+2*(graphEdge/maxX)+5)
                                     .attr("y",graphBorder+10*(graphEdge/maxY)+5)
                                     .attr("height",(graphEdge/maxY) -10)
                                     .attr("width",(graphEdge/maxX) - 10);
 
-characters.append('image').attr('href', "../Qlearning_II/gamorrian.png")
+characters.append('image').attr('href', "../gamorrian.png")
                                     .attr("preserveAspectRatio","none")
                                     .attr("x",graphBorder+2*(graphEdge/maxX)+5)
                                     .attr("y",graphBorder+13*(graphEdge/maxY)+5)
                                     .attr("height",(graphEdge/maxY) -10)
                                     .attr("width",(graphEdge/maxX) - 10);
 
-characters.append('image').attr('href', "../Qlearning_II/gamorrian.png")
+characters.append('image').attr('href', "../gamorrian.png")
                                     .attr("preserveAspectRatio","none")
                                     .attr("x",graphBorder+5*(graphEdge/maxX)+5)
                                     .attr("y",graphBorder+10*(graphEdge/maxY)+5)
                                     .attr("height",(graphEdge/maxY) -10)
                                     .attr("width",(graphEdge/maxX) - 10);
 
-let boba = characters.append('image').attr('href', "../Qlearning_II/boba.png")
+let boba = characters.append('image').attr('href', "../boba.png")
                                     .attr("preserveAspectRatio","none")
                                     .attr("x",graphBorder+14*(graphEdge/maxX)+5)
                                     .attr("y",graphBorder+14*(graphEdge/maxY)+5)
